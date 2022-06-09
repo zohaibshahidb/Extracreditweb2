@@ -534,5 +534,11 @@ textarea {
 }
 
 #hero2 {
+  padding-top: 20px;
   background-color: var(--grey);
+  color: white;
+}
+#hero2 p {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
