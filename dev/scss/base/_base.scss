@@ -1,0 +1,47 @@
+/* =============
+    Base
+============= */
+
+ul{
+    padding: 0;
+    margin: 0;
+    li{
+        list-style: none;
+    }
+}
+
+// Grid
+
+.globalcssgrid{
+    overflow: hidden;
+     display: grid;
+     grid-template-columns: 16px auto 16px;
+     grid-template-areas: ". global-grid .";
+     @include md{
+         grid-template-columns: auto 770px auto;
+     }
+     @include lg{
+        grid-template-columns: auto 1024px auto;
+    }
+    @include xl{
+        grid-template-columns: auto 1200 auto;
+    }
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+     >div{
+         grid-area: global-grid;
+     }
+}
+
+
+
+// Allign
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
