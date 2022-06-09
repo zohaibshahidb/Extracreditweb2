@@ -3,6 +3,28 @@
 ============= */
 
 #footer{
-   
+   background-color: var(--yellow);
+
+   #footgap{
+       height: 200px;
+   }
+
+   #foottxt{
+       text-transform: uppercase;
+       text-align: center;
+       font-size: 24px;
+       padding-top: 50px;
+       span{
+           color: white;
+       }
+   }
+
+   #socialfoot{
+       padding-top: 30px;
+       img{
+           padding: 10px;
+       }
+   }
+
 }
 

@@ -464,12 +464,30 @@ textarea {
 /* =============
     Footer
 ============= */
-#hero1 {
-  height: 450px;
-  overflow: hidden;
+#footer {
+  background-color: var(--yellow);
 }
+#footer #footgap {
+  height: 200px;
+}
+#footer #foottxt {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 50px;
+}
+#footer #foottxt span {
+  color: white;
+}
+#footer #socialfoot {
+  padding-top: 30px;
+}
+#footer #socialfoot img {
+  padding: 10px;
+}
+
 #hero1 img {
-  height: 450px;
+  width: 100%;
 }
 
 #herocircle {
@@ -510,6 +528,8 @@ textarea {
   text-align: center;
   font-size: medium;
   font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #hero #herotxt p {
   text-align: justify;
@@ -540,9 +560,42 @@ textarea {
 }
 #hero2 p {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
-#hero2 img {
+#hero2img2 {
+  width: 100%;
+}
+#hero2img2 img {
+  width: 100%;
+}
+
+#yellowtxt img {
+  width: 100%;
+}
+
+#gallery-1 img {
+  width: 100%;
+}
+
+#gallery-2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#gallery-2 img {
+  width: 100%;
+}
+
+#gallery-3 {
+  margin-top: 20px;
+}
+#gallery-3 img {
+  width: 100%;
+}
+
+#gallery-4 {
+  margin-top: 20px;
+}
+#gallery-4 img {
   width: 100%;
 }

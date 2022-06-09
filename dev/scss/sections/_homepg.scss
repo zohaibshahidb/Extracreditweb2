@@ -1,9 +1,7 @@
 
 #hero1{
-    height: 450px;
-    overflow: hidden;
     img{
-        height: 450px;
+        width: 100%;
     }
 }
 
@@ -47,6 +45,8 @@
                 text-align: center;
                 font-size: medium;
                 font-weight: 400;
+                padding-top: 20px;
+                padding-bottom: 20px;
             }
             p{
                 text-align: justify;
@@ -79,11 +79,46 @@
         color: white;
         p{
             padding-top: 10px;
-            padding-bottom: 20px;
+            padding-bottom: 50px;
         }
     }
 
-    #hero2{
+    #hero2img2{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+
+    #yellowtxt{
+        img{
+            width: 100%;
+        }
+    }
+
+    #gallery-1{
+        img{
+            width: 100%;
+        }
+    }
+
+    #gallery-2{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        img{
+            width: 100%;
+        }
+    }
+
+    #gallery-3{
+        margin-top: 20px;
+        img{
+            width: 100%;
+        }
+    }
+
+    #gallery-4{
+        margin-top: 20px;
         img{
             width: 100%;
         }
